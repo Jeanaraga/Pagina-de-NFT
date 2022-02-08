@@ -448,7 +448,7 @@ header {
 
 .main-4 {
     width: 100%;
-    height: 830px;
+    height: 930px;
     background-color: var(--body-background);
     display: flex;
     justify-content: center;
@@ -535,8 +535,174 @@ header {
     line-height: 24px;
     color: #FFFFFF;
     margin-right: 10px;
+    margin-bottom: 100px;
 }
 
 
 /*** FIM MAIN 4 ***/
 
+
+/*** FOOTER ***/
+
+.footer {
+    width: 100%;
+    height: 709px;
+    background-color: var(--card-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.header-footer{
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid #5a5757;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.header-footer h2 {
+    margin-left: 80px;    
+}
+
+.header-footer span {
+    color: var(--color-logo);
+}
+
+.quadrado-arrow {
+    margin-right: 80px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-logo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #5a5757;
+    display: flex;
+}
+
+.form-main-footer {
+    width: 35%;
+    height: 100%;
+    border-right: 1px solid #5a5757;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-form {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.titulo-form span {
+    color: var(--color-logo);
+}
+
+.input-form input{
+    width: 280px;
+    height: 66px;
+    background: #0D0D0D;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+    text-align: center;
+}
+
+.input-form button {
+    width: 122px;
+    height: 66px;
+    background: #FFFFFF;
+    border: none;
+    position: relative;
+    top: 0px;
+    left: -5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.links-main-footer {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-main-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.lis ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+}
+
+.lis li:hover {
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer-footer {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+    margin-left: 80px;
+}
+
+.redes-socias-img {
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;    
+}
