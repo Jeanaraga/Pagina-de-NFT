@@ -17,7 +17,7 @@
 
 - Se você quiser fazer o desafio também clique [aqui](https://app.rocketseat.com.br/discover/challenges/rocket-nfts).
 
-- Clique [aqui]() para acessar o site!!
+- Clique [aqui](https://jeanaraga.github.io/Pagina-de-NFT/) para acessar o site!!
 
 ## 🗃 Linguagens
 
