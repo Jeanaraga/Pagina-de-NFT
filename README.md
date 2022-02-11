@@ -13,11 +13,11 @@
 
 - Esse Projeto veio de um desafio da [Rocktseat](https://app.rocketseat.com.br/) de cria uma página de compra de NFT. Pessoalmente esse foi o maior projeto que já fiz e estou bastante orgulhoso pela conclusão dele. Pra fazer esse desafio não tinha o código fonte para copiar ou tirar uma dúvida, fiz apenas com auxilio do design que eles dispolinizaram no Figma, oque deixa um Pouco mais fácil para fazer.
 
-- Usei bastante o "*Display: flex;*" e isso melhorou bastante meu entedimento com FlexBox. A maior parte das propriedades de tamanho do site é com *%* ,para melhorar um pouco a questão de responsividade.
+- Usei bastante o "*Display: flex;*" e isso melhorou bastante meu entedimento de FlexBox. A maior parte das propriedades de tamanho do site é com *%* ,para melhorar um pouco a questão de responsividade.
 
 - Se você quiser fazer o desafio também clique [aqui](https://app.rocketseat.com.br/discover/challenges/rocket-nfts).
 
-- Clique [aqui]() para acessar o site!!
+- Clique [aqui](https://jeanaraga.github.io/Pagina-de-NFT/) para acessar o site!!
 
 ## 🗃 Linguagens
 
