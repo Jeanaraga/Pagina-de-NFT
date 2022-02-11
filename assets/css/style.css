@@ -16,8 +16,8 @@
 }
 
 body {
-    background-color: var(--body-background);
-    background-image: url(/assets/img/background.png); 
+    background-image: url(/assets/img/background.png);
+    background-position: center;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
@@ -47,15 +47,20 @@ li {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin-top: 57px;
-    margin-bottom: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    width: 265px;
-    height: 43px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -94,11 +99,6 @@ header {
     border-bottom: 2px solid var(--color-logo);
 }
 
-.botao-1 {
-    width: 230px;
-    height: 50px;
-}
-
 .botao-1 button {
     width: 230px;
     height: 50px;
@@ -130,7 +130,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .container-main-1 {
@@ -190,9 +190,7 @@ header {
     color: var(--color-logo);
 }
 
-.logo-main-1 {
-    width: 20%;
-}
+
 
 
 /*** FIM MAIN 1 ***/
@@ -308,7 +306,7 @@ header {
 }
 
 .textos-container-3 p {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .textos-container-3 a {
@@ -396,10 +394,10 @@ header {
 
 .arte {
     width: 60%;
-    height: 337px;
+    height: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .titulo-arte {
@@ -435,10 +433,10 @@ header {
 
 .arte-2 {
     width: 60%;
-    height: 337px;
+    height: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /*** FIM MAIN 3 ***/
@@ -535,7 +533,7 @@ header {
     line-height: 24px;
     color: #FFFFFF;
     margin-right: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 

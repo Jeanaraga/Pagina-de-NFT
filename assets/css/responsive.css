@@ -1,0 +1,523 @@
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+  }
+
+
+@media (max-width: 1200px) {
+
+    .container-main-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .descricao-main-1 {
+        width: 30%;
+    }
+
+    .descricao-main-1 p {
+        font-size: 14px;
+    }
+
+    .titulo-main-1 {
+        width: 30%;
+        height: 90%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+
+    .img-arte {
+        width: 90%;
+    }
+
+    .img-arte img {
+        width: 100%;
+    }
+
+    .header-footer {
+        height: 20%;
+    }
+
+    .main-footer {
+        width: 100%;
+        height: 60%;
+        border-bottom: 1px solid #5a5757;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-main-footer {
+        width: 100%;
+        height: 40%;
+        border-right: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .input-form {
+        position: relative;
+        top: -5px;
+    }
+
+    .links-main-footer {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-footer {
+        height: 20%;
+    }
+}
+
+@media (max-width: 950px) {
+    .galeria {
+        width: 100%;
+        height: 457px;
+        display: none;
+    }
+
+    .main-2 {
+        border-top: 1px solid #5a5757;
+    }
+
+    .bloco-artistas {
+        width: 45%;
+        height: 100%;
+        background-color: var(--card-color);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    
+    .sair {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-1 {
+        width: 100%;
+        height: 546px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 100px;
+    }
+
+    .container-main-1 {
+        width: 90%;
+        height: 546px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .descricao-main-1 {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .descricao-main-1 p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    .spans-main-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    .titulo-main-1 {
+        width: 100%;
+        height: 40%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-main-1 {
+        display: none;
+    }
+
+    .main-footer {
+        flex-direction: column-reverse;
+    }
+
+    .botao-1 button {
+        width: 130px;
+        height: 50px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .main-2 {
+        width: 100%;
+        height: 660px;
+        background-color: var(--body-background);
+        display: flex;
+        flex-direction: column-reverse;
+        border-bottom: 1px solid #5a5757;
+    }
+
+    .container-1-main-2 {
+        width: 100%;
+        height: 20%;
+        border-top: 1px solid #5A5757;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-numeros{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container-2-main-2 {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-4-main-2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-3 {
+        height: 1000px;
+    }
+
+    .container-main-3 {
+        height: 700px;
+    }
+
+    .titulo-main-3  {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .titulo-arte {     
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .subtitulo-arte {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .subtitulo-arte span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .botao-1 {
+        display: none;
+    }
+
+    .titulo-main-4 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .titulo-main-3  {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .header-footer {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .titulo-form {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .input-form {
+        position: relative;
+        top: -10px;
+    }
+
+    .input-form input{
+        width: 200px;
+        height: 66px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .input-form button {
+        width: 110px;
+        height: 66px;
+        top: 2px;
+        left: -5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .titulo-main-1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .main-1 {
+        height: 400px;
+    }
+
+    .container-main-1 {
+        height: 400px;
+    }
+
+    .descricao-main-1 p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .spans-main-1 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .logo h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .header-footer h2 {
+        margin-left: 20px;    
+    }
+
+    .quadrado-arrow {
+        margin-right: 20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .redes-socias-img {
+        margin-right: 20px;
+        gap: 10px;
+    }
+
+    .email {
+        margin-left: 20px;
+    }
+
+    .container-1-main-2 {
+        height: 30%;
+    }
+
+    .container-2-main-2 {
+        height: 70%;
+    }
+
+    .container-4-main-2 {
+        display: none;
+    }
+    
+    .container-3-main-2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-main-4 {
+        height: 900px;
+    }
+
+    .artistas-main-4 {
+        height: 700px;
+    }
+
+    .artistas-container {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bloco-artistas {
+        width: 80%;
+        height: 45%;
+    }
+
+    .main-2 {
+        width: 100%;
+        height: 550px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .botao-1 {
+        display: block;
+    }
+
+    .botao-1 button {
+        width: 230px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .titulo-main-3 {
+        text-align: center;
+    }
+
+    .artistas-2 {
+        display: none;
+    }
+
+    .artistas-1 {
+        width: 100%;
+        height: 100%;
+        border-right: none;
+        align-items: center;
+    }
+
+    .titulo-main-4 {
+        text-align: center;
+    }
+
+    .titulo-form {
+        font-size: large;
+    }
+
+    .links-main-footer {
+        height: 50%;
+    }
+
+    .form-main-footer {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lis ul {
+        gap: 10px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .footer-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .textos-container-3 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .numeros h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 300px) {
+    .main-4 {
+        display: none;
+    }
+
+    .titulo-main-3 {
+        font-size: large;
+    }
+
+    .titulo-form {
+        font-size: large;
+    }
+
+    .menu a{
+        font-size: 12px;
+        justify-content: space-around;
+    }
+
+    .botao-1 button {
+        width: 130px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    .titulo-main-1 {
+        font-size: 20px;
+    }
+
+    .p-main-1 {
+        font-size: 12px;
+    }
+
+    .img-main-1 {
+        height: 40%;
+    }
+
+    .input-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-footer h2{
+        font-size: large;
+    }
+}
