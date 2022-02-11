@@ -16,7 +16,8 @@
 }
 
 body {
-    background-image: url(/assets/img/background.png);
+    background-color: #000;
+    background-image: url(./assets/img/background.png);
     background-position: center;
     font-family: 'Montserrat', sans-serif;
     display: flex;
