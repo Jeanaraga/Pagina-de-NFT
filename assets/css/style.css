@@ -16,12 +16,10 @@
 }
 
 body {
-    background-color: #000;
-    background-image: url(./assets/img/background.png);
+    background-color: #0c0c0c;
+    background-image: url("/assets/img/background.png");
     background-position: center;
     font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 
 a {
@@ -55,7 +53,7 @@ header {
 }
 
 .cabecalho {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
